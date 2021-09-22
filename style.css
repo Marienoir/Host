@@ -15,6 +15,51 @@ h1{
 .text-underline{
   border-bottom: 3px solid #B00000 ;
 }
+.bg-colored{
+  background: #F7FAFE;
+}
+.package__heading {
+  text-align: center;
+}
+.package__heading > p {
+  margin: 38px 0;
+}
+.package__type{
+  display: flex;
+  justify-content: space-evenly;
+}
+.package__type > p > span {
+  background: #FFE87A;
+  padding: 4px;
+  font-size: 0.6rem;
+  border-radius: 5px;
+}
+.package__level{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.package__level > h4:first-child{
+  border-bottom: 2px solid #B00000;
+;
+}
+.package__level > h4 {
+  border-bottom: 2px solid gray;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 5px;
+}
+.monthly__switch{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+.monthly__switch > p{
+  margin-right: 5px;
+}
+.section__package{
+  padding: 0 150px;
+}
 footer{
   background-color: #B00000;
 }

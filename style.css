@@ -83,7 +83,7 @@ footer ul > li{
     position: relative;
     display: inline-block;
     width: 60px;
-    height: 30px;
+    height: 25px;
   }
   
   .switch input { 
@@ -110,7 +110,7 @@ footer ul > li{
     height: 22px;
     width: 22px;
     left: 4px;
-    bottom: 5px;
+    bottom: 2px;
     background-color: white;
     -webkit-transition: .4s;
     transition: .4s;
